@@ -1,4 +1,4 @@
-# Spain_vs_covid
+# COVID-19 Impact on Tourism in Spain — Case Study
 
 **Autor:** Valeria Medina  
 **Herramientas:** SQL / EXCEL /   
