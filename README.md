@@ -8,7 +8,8 @@
 
 ## 🚧 Estado del proyecto
 **En desarrollo:**  
-- [x] Diseño de preguntas  
+- [x] Diseño de preguntas
+- [x] Descripción de lo datos
 - [ ] Limpieza y estructura en Excel
 - [ ] Consultas SQL  
 - [ ] Dashboard en Power BI  
@@ -44,4 +45,23 @@ El objetivo final es **medir la magnitud del descenso de turistas** y **determin
 >>- *Cuota del turismo nacional*
 
 > **4. Qué comunidades muestran la recuperación más rápida?**
+
+---
+
+## Descripción de lo datos
+
+Usaremos los datasets proporcionados por el Instituto Nacional de Estadística relativos a servicios y hostelería.
+
+[Estadística de movimientos turísticos en frontera](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176996&menu=ultiDatos&idp=1254735576863)
+  - Número de turistas según comunidad autónoma de destino principal
+  - Número de turistas según país de residencia
+
+[Coyuntura Turística Hotelera (EOH/IPH/IRSH)](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177015&menu=ultiDatos&idp=1254735576863)
+  - Viajeros, pernoctaciones por tipo de alojamiento por comunidades y ciudades autónomas
+
+Al usar diferentes datasets para este proyecto, establecemos una prioridad entre cada tabla, se determinó que el orden de importancia es el siguiente:
+  - Tabla 1 — Turistas por comunidad autónoma
+  - Tabla 2 — (opcional) Ocupación hotelera por comunidad
+  - Tabla 3 — (opcional) Turistas por país de procedencia
+
 
