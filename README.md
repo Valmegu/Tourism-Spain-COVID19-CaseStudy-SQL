@@ -16,7 +16,7 @@
 - [x] Crear proyecto ‖ 27/11/25 - Proyecto creado (estructura inicial)
 - [x] Diseño de preguntas ‖ 28/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
 - [x] Descripción de los datos ‖ 28/11/25 - Describir origen de los datos
-- [x] [Limpieza y estructura en Excel ‖ 29/11/25 - Limpieza de datos en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/edit/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos)
+- [x] [Limpieza y estructura en Excel ‖ 29/11/25 - Limpieza de datos en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos)
 - [ ] Consultas SQL  
 - [ ] Dashboard en Power BI  
 - [ ] Conclusiones finales
