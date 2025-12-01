@@ -31,8 +31,9 @@ project\
 - [x] Crear proyecto ‖ 27/11/25 - Proyecto creado (estructura inicial)
 - [x] [Diseño de preguntas](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos)‖ 28/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
 - [x] [Descripción de los datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos) ‖ 28/11/25 - Describir origen de los datos
-- [x] [Limpieza y estructura en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos) ‖ 29/11/25 - Limpieza de datos en Excel
-- [ ] Consultas SQL  
+- [x] [Limpieza y estructura en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos) ‖ 29/11/25 - Limpieza inicial en Excel
+- [x] [Comprobación de datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#comprobaci%C3%B3n-de-datos) ‖ 01/12/25 - Combrobaciones previas al análisis
+- [ ] Consultas SQL
 - [ ] Dashboard en Power BI  
 - [ ] Conclusiones finales
 
@@ -122,4 +123,31 @@ No es obligatorio para este análisis, pero útil para posibles integraciones (h
 7. Guardar el dataset final como CSV UTF-8\
 Para importarlo sin problemas a SQLite/DBeaver.
 
+---
+
+## Comprobación de datos
+
+Antes de empezar a respoder las preguntas iniciales, se hizo una ultima comprobación con SQL. De esta manera nos aseguramos de que contamos con todos los datos necesarios
+Se creo un dataset denominado turistas_comunidad_clean, en el que volvemos a comprobar que los valores estén en el formato necesario para realizar el análisis.
+
+### Resultados
+
+| Validación                   | Resultado                                      |
+| ---------------------------- | ---------------------------------------------- |
+| Cantidad total de filas      | **114**                                        |
+| Total de comunidades         | **19** (17 CCAA + 2 ciudades autónomas)        |
+| Rango de años                | **2019–2024** (6 años)                         |
+| Registros esperados (19 × 6) | **114** → Todo correcto                        |
+| Valores nulos o vacíos       | **4 registros** (Ceuta y Melilla en 2019–2020) |
+
+### Valores Faltantes
+
+|Periodo|Comunidad|Turistas |
+| ------|---------|-------- |
+|2019   |Ceuta    |**0**    |
+|2019   |Melilla  |**0**    |
+|2020   |Ceuta    |**0**    |
+|2020   |Melilla  |**0**    |
+
+Debido a que Ceuta y Melilla no cuentan con datos para 2019 y 2020, no será posible incluirlas en los análisis comparativos (caída 2020, recuperación vs 2019, etc.). Se mantienen en el dataset por transparencia, pero se excluyen en los cálculos que lo requieren.
 
