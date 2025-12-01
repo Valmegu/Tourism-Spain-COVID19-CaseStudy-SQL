@@ -12,18 +12,23 @@
 ---
 ##Estructura de datos del proyecto
 
-project\
-│\
-├── data\
-│   ├── datos_INE_raw\
-│   │   └── turistas_x_comunidad_destino.csv\
-│   │\
-│   └── datos_INE_limpios\
-│       └── turistas_x_comunidad_destino.csv\
-│\
-├── LICENSE\
-└── README.md\
-
+```
+project
+│
+├── data
+│   ├── datos_INE_raw
+│   │   └── turistas_x_comunidad_destino.csv
+│   │
+│   └── datos_INE_limpios
+│        └── turistas_x_comunidad_destino.csv
+│
+├──sql
+|  └── exploratory-analysis.sql
+│         
+|
+├── LICENSE
+└── README.md
+```
 ---
 
 ## Estado del proyecto ‖ Updates
@@ -127,8 +132,9 @@ Para importarlo sin problemas a SQLite/DBeaver.
 
 ## Comprobación de datos
 
-Antes de empezar a respoder las preguntas iniciales, se hizo una ultima comprobación con SQL. De esta manera nos aseguramos de que contamos con todos los datos necesarios
-Se creo un dataset denominado turistas_comunidad_clean, en el que volvemos a comprobar que los valores estén en el formato necesario para realizar el análisis.
+Antes de empezar a respoder las preguntas iniciales, se hace una última comprobación con SQL.
+Se crea un dataset denominado turistas_comunidad_clean, en el que volvemos a comprobar que los valores estén en el formato necesario para realizar el análisis.
+El archivo SQL utilizado se encuentra en la carpeta sql bajo el nombre de exploratory_analysis.sql
 
 ### Resultados
 
