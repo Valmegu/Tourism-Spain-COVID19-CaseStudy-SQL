@@ -22,6 +22,8 @@ project
 │   └── datos_INE_limpios
 │        └── turistas_x_comunidad_destino.csv
 │
+├──img
+|
 ├──sql
 |  └── exploratory_analysis.sql
 │       
@@ -37,8 +39,8 @@ project
 - [x] [Descripción de los datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos) ‖ 28/11/25 - Describir origen de los datos
 - [x] [Limpieza y estructura en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos) ‖ 29/11/25 - Limpieza inicial en Excel
 - [x] [Comprobación de datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#comprobaci%C3%B3n-de-datos) ‖ 01/12/25 - Comprobaciones previas al análisis
-- [ ] Consultas SQL
-- [ ] Dashboard en Power BI  
+- [x] [Analisis parte 1](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#1-qu%C3%A9-tan-fuerte-fue-la-ca%C3%ADda-en-2020-comparado-con-2019-1) ‖ 02/12/25 - Primera parte del análisis
+- [ ] Análisis parte 2  
 - [ ] Conclusiones finales
 
 ---
@@ -196,7 +198,15 @@ Los resultados muestrasn un patrón diferente
 Este análisis nos revela algo mucho más interesante. El impacto de perdidas no está ligado al volumen total de turistasv
 Vemsos que Murcia y Madrid entran en el top de perdidas y Baleates sufre una perdida mayor que Cataluña a pesar de tener menos turistas en 2019.
 
-- Caída por comunidad  
+- Caída por comunidad
+
+La caída turística en 2020 fue profunda en todas las comunidades autónomas, pero no de forma uniforme.
+En términos absolutos, Cataluña, Baleares, Canarias, Andalucía y la Comunitat Valenciana fueron las más afectadas por volumen.
+Sin embargo, el impacto proporcional fue más severo en Illes Balears (–87%), seguida de Cataluña (–80%), Madrid y Andalucía (–77%)
+
+<p align="center">
+  <img src="img/Caida_comunidad.png" width="600">
+</p>
 
 ### 2. ¿En qué año comenzó la recuperación real (2021–2024)?
 - Crecimiento YoY  
