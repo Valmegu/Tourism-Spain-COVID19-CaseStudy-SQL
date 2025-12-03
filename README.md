@@ -173,7 +173,7 @@ Comparamos el total de turistas de cada comunidad en 2019 vs 2020 para medir cu�
 |Comunidad|Turistas 2019|Turistas 2020|Diferencia|
 |---|---|----|-----|
 |Cataluña|19.375.152|3.870.259|**-15.504.893**|
-|Balears, Illes|13.679.781|1.721.123|**-11.958.658**|
+|Illes Balears|13.679.781|1.721.123|**-11.958.658**|
 |Canarias	|13.146.863|	3.787.228	|**-9.359.635**|
 |Andalucía	|12.023.153	|2.700.613	|**-9.322.540**|
 |Comunitat Valenciana	|9.535.496|2.542.758|	**-6.992.738**|
@@ -182,14 +182,14 @@ Estas comunidades a su vez registraron la mayor cantidad de turistas en el 2019,
     
 #### ➤ **Caída porcentual (2019 → 2020)**
 
-Es necesario saber de manera porcentual cuales fueron las comunidades con más pérdidas
+Es necesario saber de manera porcentual cuáles fueron las comunidades con más pérdidas
 Calculamos el porcentaje de disminución tomando como base el valor de 2019 y comparando la diferencia respecto al año 2020
 
-$$Pérdidas = \frac{(Turistas2020-Turistas2019)}{Turistas2019}x100$$
+$$Pérdidas = \frac{(Turistas2020-Turistas2019)}{Turistas2019} x 100$$
 
 Esta vez, los resultados muestran un patrón diferente
 
-|Comunidad|Turistas 2019|Turistas 2020|Porcentaje de perdida|
+|Comunidad|Turistas 2019|Turistas 2020|Porcentaje de pérdida|
 |---|---|---|---|
 |Illes Balears|	13.679.781	|1.721.123	|-87.0|
 |Cataluña	|19.375.152|	3.870.259	|-80.0|
@@ -198,7 +198,7 @@ Esta vez, los resultados muestran un patrón diferente
 |Región de Murcia	|1.037.818|	279.245	|-73.0|
 
 Este análisis nos revela algo mucho más interesante. El impacto de pérdidas no está ligado al volumen total de turistas.
-Murcia y Madrid entran en las comunidades con mayores pérdidas y Baleates tiene una caída mayor que Cataluña a pesar de tener menos turistas en 2019.
+Murcia y Madrid entran en las comunidades con mayores pérdidas y Baleares tiene una caída mayor que Cataluña a pesar de tener menos turistas en 2019.
 
 #### ➤ **Caída por comunidad (Ranking porcentual)**
 
