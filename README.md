@@ -76,7 +76,7 @@ El objetivo final es **medir la magnitud del descenso de turistas** y **determin
 
 ## Descripción de los datos
 
-Para este análisis Usaremos los datasets proporcionados por el Instituto Nacional de Estadística (INE) relacionados con el movimiento turístico y la actividad hotelera.
+Para este análisis usaremos los datasets proporcionados por el Instituto Nacional de Estadística (INE) relacionados con el movimiento turístico y la actividad hotelera.
 
 [Estadística de movimientos turísticos en frontera](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176996&menu=ultiDatos&idp=1254735576863)
   - Número de turistas según comunidad autónoma de destino principal
@@ -105,7 +105,7 @@ El objetivo es consolidar estas tablas en un modelo analítico que permita medir
 
 Nos centraremos en los datos entre 2019 y 2024 (6 años), por comunidad autónoma y únicamente con datos base. 
 > [!NOTE]
-> Las estimaciones por comunidad autónoma no tienen porqué coincidir con el total nacional, ya que el INE utiliza procedimientos estadísticos independientes para cada nivel territorial. Yo utilicé la suma de los totales por comunidad como proxy para el total nacional.
+> Las estimaciones por comunidad autónoma no tienen por qué coincidir con el total nacional, ya que el INE utiliza procedimientos estadísticos independientes para cada nivel territorial. Yo utilicé la suma de los totales por comunidad como proxy para el total nacional.
 
 La limpieza inicial se realizó en Excel para:
 
@@ -176,16 +176,16 @@ Comparamos el total de turistas de cada comunidad en 2019 vs 2020 para medir cu�
 |Andalucía	|12.023.153	|2.700.613	|**-9.322.540**|
 |Comunitat Valenciana	|9.535.496|2.542.758|	**-6.992.738**|
 
-Estas comunidades a su vez registraron la mayor cantidad de turistas en el 2019, por lo que es normal que presenten las mayores pérdidas en volumen.
+Estas comunidades a su vez registraron la mayor cantidad de turistas en el 2019, por lo que es normal observar mayores pérdidas en volumen.
     
 - Caída porcentual (2019 → 2020)
 
-Es necesario saber de manera porcentual cuales fueron las comunidades con más perdidas
+Es necesario saber de manera porcentual cuales fueron las comunidades con más pérdidas
 Calculamos el porcentaje de disminución tomando como base el valor de 2019 y comparando la diferencia respecto al año 2020
 
 $$Perdida = \frac{Turistas2020-Turistas2019}{Turistas2019}x100$$
 
-Los resultados muestrasn un patrón diferente
+Esta vez, los resultados muestran un patrón diferente
 
 |Comunidad|Turistas 2019|Turistas 2020|Porcentaje de perdida|
 |---|---|---|---|
@@ -195,8 +195,8 @@ Los resultados muestrasn un patrón diferente
 |Andalucía|	12.023.153	|2.700.613|	-77.0|
 |Región de Murcia	|1.037.818|	279.245	|-73.0|
 
-Este análisis nos revela algo mucho más interesante. El impacto de perdidas no está ligado al volumen total de turistasv
-Vemsos que Murcia y Madrid entran en el top de perdidas y Baleates sufre una perdida mayor que Cataluña a pesar de tener menos turistas en 2019.
+Este análisis nos revela algo mucho más interesante. El impacto de pérdidas no está ligado al volumen total de turistas.
+Murcia y Madrid entran en las comunidades con mayores pérdidas y Baleates tiene una caída mayor que Cataluña a pesar de tener menos turistas en 2019.
 
 - Caída por comunidad
 
@@ -205,7 +205,7 @@ En términos absolutos, Cataluña, Baleares, Canarias, Andalucía y la Comunitat
 Sin embargo, el impacto proporcional fue más severo en Illes Balears (–87%), seguida de Cataluña (–80%), Madrid y Andalucía (–77%)
 
 <p align="center">
-  <img src="img/Caida_comunidad.png" width="600">
+  <img src="img/Caida_comunidad.png" width="800">
 </p>
 
 ### 2. ¿En qué año comenzó la recuperación real (2021–2024)?
