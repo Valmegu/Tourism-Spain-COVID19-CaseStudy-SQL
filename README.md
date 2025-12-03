@@ -164,7 +164,9 @@ Pasamos a responder una a una las preguntas planteadas anteriormente
 
 ### 1. ¿Qué tan fuerte fue la caída en 2020 comparado con 2019?
 
-- Caída absoluta(2019 → 2020)
+La primera pregunta del análisis aborda el impacto inicial de la pandemia en el turismo español. Para ello comparamos 2019 (año base previo al COVID-19) con 2020 (año de restricciones y paralización global). El objetivo es identificar qué comunidades experimentaron las mayores pérdidas y cómo varió la magnitud del impacto entre regiones.
+
+#### ➤ **Caída absoluta (2019 → 2020)**
 
 Comparamos el total de turistas de cada comunidad en 2019 vs 2020 para medir cuántos turistas se perdieron en números absolutos. Las mayores caídas fueron:
 
@@ -178,12 +180,12 @@ Comparamos el total de turistas de cada comunidad en 2019 vs 2020 para medir cu�
 
 Estas comunidades a su vez registraron la mayor cantidad de turistas en el 2019, por lo que es normal observar mayores pérdidas en volumen.
     
-- Caída porcentual (2019 → 2020)
+#### ➤ **Caída porcentual (2019 → 2020)**
 
 Es necesario saber de manera porcentual cuales fueron las comunidades con más pérdidas
 Calculamos el porcentaje de disminución tomando como base el valor de 2019 y comparando la diferencia respecto al año 2020
 
-$$Perdida = \frac{Turistas2020-Turistas2019}{Turistas2019}x100$$
+$$Pérdidas = \frac{(Turistas2020-Turistas2019)}{Turistas2019}x100$$
 
 Esta vez, los resultados muestran un patrón diferente
 
@@ -198,11 +200,13 @@ Esta vez, los resultados muestran un patrón diferente
 Este análisis nos revela algo mucho más interesante. El impacto de pérdidas no está ligado al volumen total de turistas.
 Murcia y Madrid entran en las comunidades con mayores pérdidas y Baleates tiene una caída mayor que Cataluña a pesar de tener menos turistas en 2019.
 
-- Caída por comunidad
+#### ➤ **Caída por comunidad (Ranking porcentual)**
 
 La caída turística en 2020 fue profunda en todas las comunidades autónomas, pero no de forma uniforme.
 En términos absolutos, Cataluña, Baleares, Canarias, Andalucía y la Comunitat Valenciana fueron las más afectadas por volumen.
 Sin embargo, el impacto proporcional fue más severo en Illes Balears (–87%), seguida de Cataluña (–80%), Madrid y Andalucía (–77%)
+
+Para visualizar estas diferencias de forma más clara, se presenta el siguiente ranking de caída por comunidad:
 
 <p align="center">
   <img src="img/Caida_comunidad.png" width="800">
