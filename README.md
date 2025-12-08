@@ -264,12 +264,12 @@ ___
 
 Hemos confirmado que el turismo en España ya se encuentral recuperado par el 2024 e incluso superó los niveles del 2019. Ahora analizaremos cómo se distribuye este crecimiento por comunidad autónoma para determinar los protagonismas actuales del turismo y cuáles han perido peso en los útimos años
 
-- Total nacional
+#### ➤ **Total nacional**
 
-Para el 2024 podemos ver que el turismo nacional aumentó un 12% con respecto al 2019 como muestra el gráfico YOY de la [pregunta 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL#-crecimiento-yoy). Podemos concluir que luego de 4 años de post-pandemia se logró llegar a una recuperación real
+Para el 2024 podemos ver que el turismo nacional aumentó un 12% con respecto al 2019 como muestra el gráfico YoY de la [pregunta 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL#-crecimiento-yoy). Podemos concluir que luego de 4 años de post-pandemia se logró llegar a una recuperación real
   
-- Ranking por comunidad  
-- Cuota del turismo nacional
+#### ➤ **Ranking por comunidad** 
+#### ➤ **Cuota del turismo nacional**
 
 ___
 
