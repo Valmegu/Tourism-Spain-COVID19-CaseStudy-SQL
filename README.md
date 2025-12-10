@@ -40,9 +40,9 @@ project
 - [x] [Limpieza y estructura en Excel](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#preparaci%C3%B3n-y-limpieza-de-datos) ‖ 29/11/25 - Limpieza inicial en Excel
 - [x] [Comprobación de datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#comprobaci%C3%B3n-de-datos) ‖ 01/12/25 - Comprobaciones previas al análisis
 - [x] [Analisis parte 1](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#1-qu%C3%A9-tan-fuerte-fue-la-ca%C3%ADda-en-2020-comparado-con-2019-1) ‖ 02/12/25 - Primera parte del análisis
-- [x] [Análisis parte 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#2-en-qu%C3%A9-a%C3%B1o-comenz%C3%B3-la-recuperaci%C3%B3n-real-20212024-1)  ‖ 03/12/25 a 05/12/25- Segunda parte del análisis
+- [x] [Análisis parte 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#2-en-qu%C3%A9-a%C3%B1o-comenz%C3%B3-la-recuperaci%C3%B3n-real-20212024-1)  ‖ 03/12/25 a 05/12/25 - Segunda parte del análisis
 - [x] [Análisis parte 3](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#3-c%C3%B3mo-qued%C3%B3-distribuido-el-turismo-espa%C3%B1ol-en-2024-comparado-con-2019)  ‖ 08/12/25 a 09/12/25 - Tercera parte
-- [ ] Análisis parte 4  ‖ 
+- [x] [Análisis parte 4](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#4-las-comunidades-que-m%C3%A1s-turistas-ten%C3%ADan-antes-de-la-pandemia-fueron-tambi%C3%A9n-las-que-mejor-se-recuperaron)  ‖ 10/12/25 - Tercera parte del análisis
 - [ ] Conclusiones finales
 
 ---
