@@ -289,14 +289,23 @@ ___
 
 ### 4. ¿Las comunidades que más turistas tenían antes de la pandemia fueron también las que mejor se recuperaron?
 
-Para responder esta pregunta evaluaremos 4 aspectos claves en un gráfico de disperción
+Para responder esta pregunta evaluaremos 4 aspectos claves en un gráfico de dispersión
 
-   - Porcentaje de recuperación por comunidad con respecto al 2019 (Eje x)
-   - Turistas por comunidad en 2019 (Eje Y)
-   - Peso en la cuota de turismo en el 2024 (Tamaño del círculo)
-   - Estado actual: Recuperado/No recuperado (Colores)
+   - Porcentaje de recuperación por comunidad con respecto al 2019 (Eje X)
+   - Turistas recibidos por comunidad en 2019 (Eje Y)
+   - Peso en la cuota turística en el 2024 (Tamaño del círculo)
+   - Estado actual de recuperación: Recuperado / No recuperado (Colores)
 
 <p align="center">
   <img src="img/recuperacion_turistas2019.png" width="800">
 </p>
 
+Así ponemos en evidencia hallazgos clave:
+
+1. Solo tenemos 4 comunidades que no se han recuperado por completo: Extremadura, La Rioja, Castilla La Mancha y Aragón
+2. Los grandes motores del turismo en 2019 como Cataluña, La Comunidad Valenciana, Andalucía, Baleares y Madrid se han recuperado y superado los valores Pre-Pandemia
+3. País Vasco, Cantabria y Navarra destacan al haber superado en su recuperación a comunidades que históricamente tenían mayor cuota turística nacional.
+4. Aunque Cataluña sigue siendo la comunidad más turística por volumen absoluto, su recuperación porcentual es más moderada comparada con otras regiones que han crecido con más fuerza.
+
+La recuperación no ha sido uniforme. Tras la pandemia, parece estar produciéndose un cambio en el mapa turístico, donde varias comunidades emergentes están ganando protagonismo y reduciendo la brecha respecto a las regiones tradicionalmente dominantes
+   
