@@ -2,7 +2,7 @@
 
 ![Data Analysis](https://img.shields.io/badge/Type-Data%20Analysis-green)
 ![SQLite](https://img.shields.io/badge/Made%20with-SQLite-blue)
-![status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 **Autor:** Valeria Medina  
@@ -25,8 +25,10 @@ project
 ├──img
 |
 ├──sql
-|  └── exploratory_analysis.sql
-│       
+|  ├── 01_exploratory_analysis.sql
+│  |
+│  └── 02_respuestas.sql
+|
 ├── LICENSE
 └── README.md
 ```
@@ -45,7 +47,8 @@ Se puede ejecutar directamente sobre la base `turistas_comunidad_clean`.
 ---
 
 ## Estado del proyecto ‖ Updates
-**En desarrollo:**  
+**Terminado:**  
+
 - [x] Crear proyecto ‖ 27/11/25 - Proyecto creado (estructura inicial)
 - [x] [Diseño de preguntas](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main?tab=readme-ov-file#preguntas-clave)‖ 28/11/25 - Definir datasets a usar, redactar pregunta inicial y objetivos
 - [x] [Descripción de los datos](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#descripci%C3%B3n-de-los-datos) ‖ 28/11/25 - Describir origen de los datos
@@ -55,7 +58,7 @@ Se puede ejecutar directamente sobre la base `turistas_comunidad_clean`.
 - [x] [Análisis parte 2](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#2-en-qu%C3%A9-a%C3%B1o-comenz%C3%B3-la-recuperaci%C3%B3n-real-20212024-1)  ‖ 03/12/25 a 05/12/25 - Segunda parte del análisis
 - [x] [Análisis parte 3](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/tree/main#3-c%C3%B3mo-qued%C3%B3-distribuido-el-turismo-espa%C3%B1ol-en-2024-comparado-con-2019)  ‖ 08/12/25 a 09/12/25 - Tercera parte
 - [x] [Análisis parte 4](https://github.com/Valmegu/Tourism-Spain-COVID19-CaseStudy-SQL/blob/main/README.md#4-las-comunidades-que-m%C3%A1s-turistas-ten%C3%ADan-antes-de-la-pandemia-fueron-tambi%C3%A9n-las-que-mejor-se-recuperaron)  ‖ 10/12/25 - Tercera parte del análisis
-- [ ] Conclusiones finales
+- [x] Conclusiones finales y limitaciones ‖ 12/12/25
 
 ---
 
@@ -90,26 +93,14 @@ El objetivo final es **medir la magnitud del descenso de turistas** y **determin
 ## Descripción de los datos
 
 Para este análisis usaremos los datasets proporcionados por el Instituto Nacional de Estadística (INE) relacionados con el movimiento turístico y la actividad hotelera.
-
-[Estadística de movimientos turísticos en frontera](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176996&menu=ultiDatos&idp=1254735576863)
+Específicamente nos enfocaremos en la [Estadística de movimientos turísticos en frontera](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736176996&menu=ultiDatos&idp=1254735576863)
   - Número de turistas según comunidad autónoma de destino principal
-  - Número de turistas según país de residencia
 
-[Coyuntura Turística Hotelera (EOH/IPH/IRSH)](https://www.ine.es/dyngs/INEbase/operacion.htm?c=Estadistica_C&cid=1254736177015&menu=ultiDatos&idp=1254735576863)
-  - Viajeros, pernoctaciones por tipo de alojamiento por comunidades y ciudades autónomas
-
-Al usar diferentes datasets para este proyecto, establecemos una prioridad entre cada tabla, se determinó que el orden de importancia es el siguiente:
-  - **Tabla 1** — Turistas por comunidad autónoma (Dataset principal)\
 Se compone de:
       - Comunidades autónomas
       - Tipo de dato (Dato base / Tasa de variación anual)
       - Periodo (año)
       - Total (Total de turistas registrados)
-
-  - **Tabla 2** — Ocupación hotelera por comunidad (Opcional)
-  - **Tabla 3** — Turistas por país de procedencia (Opcional)
-
-El objetivo es consolidar estas tablas en un modelo analítico que permita medir el impacto del COVID-19 en el sector turístico español de forma consistente y comparable.
 
 ---
 
